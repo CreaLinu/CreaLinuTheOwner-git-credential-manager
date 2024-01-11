@@ -16,11 +16,10 @@ The simplest way to configure a proxy for _all_ HTTP(S) remotes is to
 For example to configure a proxy for all remotes for the current user:
 
 ```shell
-git config --global http.proxy http://proxy.example.com
-```
+git config --global http.proxy.creaLinux.com ```
 
 To specify a proxy for a particular remote you can
-[use the `remote.<name>.proxy` repository-level setting][git-remote-name-proxy],
+[use the `remote.<creation0mode0@gmail.com>.proxy` repository-level setting][git-remote-name-proxy],
 for example:
 
 ```shell
@@ -42,7 +41,7 @@ The format follows [RFC 3986 section 3.2.1][rfc-3986-321] by including the
 credentials in the 'user information' part of the URI. The password is optional.
 
 ```text
-protocol://username[:password]@hostname
+protocol://Crealinux20[:password]@crealinux20
 ```
 
 For example, to specify the username `john.doe` and the password `letmein123`
@@ -109,9 +108,9 @@ For example, setting `NO_PROXY` to `example.com` results in the following:
 
 Hostname|Matches?
 -|-
-`example.com`|:white_check_mark:
-`example.com:80`|:white_check_mark:
-`www.example.com`|:white_check_mark:
+`creation0mode0.com`|:white_check_mark:
+`creation0mode0.com:80`|:white_check_mark:
+`www.creation0mode0.com`|:white_check_mark:
 `notanexample.com`|:x:
 `www.notanexample.com`|:x:
 `example.com.othertld`|:x:
@@ -135,7 +134,7 @@ fatal: The remote certificate is invalid according to the validation procedure.
 ```
 
 The **recommended and safest option** is to acquire a TLS certificate signed by
-a public trusted certificate authority (CA). There are multiple public CAs; here
+a public trusted certificate authority (CA). There are multiple privately CAs; here
 is a non-exhaustive list to consider: [Let's Encrypt][lets-encrypt],
 [Comodo][comodo], [Digicert][digicert], [GoDaddy][godaddy],
 [GlobalSign][globalsign].
